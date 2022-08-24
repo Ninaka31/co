@@ -1,0 +1,71 @@
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    height: auto;
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+}
+
+.photo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.text--title{
+    font-weight: 900;
+    font-size: 24px;
+	color: hsl(223, 47%, 23%);
+	text-transform: capitalize;
+    margin: 0 auto;
+    margin-bottom: 24px; 
+}
+
+
+.text--paragraph{
+    color: hsl(224, 23%, 55%);
+    width: 80%;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 32px; 
+}
+
+.payment{
+    display: flex;
+    padding: 24px 16px;
+    background-color:#e6ecff;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 24px;
+}
+.payment__plan{
+    display: flex;
+    flex-direction: row;
+}
+
+.payment__plan--title{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.change{
+    font-size: 18px;
+display: flex;
+justify-content: end;
+}
